@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Dulce Pastelería</title>
+</head>
+
+<body>
+
+    <!-- Nav -->
+    <header class="main-header">
+        <nav class="navbar">
+            <!-- LOGO -->
+            <div class="logo">DP</div>
+            <!-- NAVIGATION MENU -->
+            <ul class="nav-links">
+              <!-- USING CHECKBOX HACK -->
+              <input type="checkbox" id="checkbox_toggle" />
+              <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+              <!-- NAVIGATION MENUS -->
+              <div class="menu">
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/index.html#pasteles">Pasteles</a></li>
+                <li><a href="/index.html#footer">Contacto</a></li>
+                <li><a href="./panel-admin.html">Admin</a></li>
+              </div>
+            </ul>
+          </nav>
+    </header>
+
+    <div class="content">
+        <!--
+        Principal section
+        -->
+        <section class="main-section-individual">
+            <!--
+        Header, slogan, company logo and a button
+        -->
+            <main class="main-content">
+                <div class="div-content">
+                    <h1>Panel Administrador</h1>
+                </div>
+            </main>
+        </section>
+
+        <!--
+        Section, panel admin
+        -->
+        <section class="div-inventario">
+                <div class="targets-inventario" style="margin-bottom: 20px;">
+                    <h4 class="about-colum-title">Inventario Sabores</h4>
+                    <p for="file">Chocolate: 30kg en existencia <progress id="file" max="100" value="30"></progress></p>
+                    <p for="file">vainilla: 50 en existencia <progress id="file" max="100" value="50"></progress></p>
+                    <p for="file">Cajeta: 30kg en existencia <progress id="file" max="100" value="30"></progress></p>
+                </div>
+                <div class="targets-inventario" style="margin-bottom: 20px;">
+                    <h4 class="about-colum-title">Inventario Adornos</h4>
+                    <p for="file">Merengue: 30kg en existencia <progress id="file" max="100" value="30"></progress></p>
+                    <p for="file">Chantilly: 50 en existencia <progress id="file" max="100" value="50"></progress></p>
+                    <p for="file">Fondant: 30kg en existencia <progress id="file" max="100" value="30"></progress></p>
+                </div>
+                <div class="targets-inventario" style="margin-bottom: 20px;">
+                    <h4 class="about-colum-title" style="margin-bottom: 20px;">Pedidos</h4>
+                    <div class="target-single" >
+                        <div class="card">
+                            <div class="container">
+                              <h4><b>Pedido 1</b></h4> 
+                              <p>ID: 0001239</p>
+                              <p>Fecha: 10/02/2022</p> 
+                              <p>Hora:  10:44 am</p>
+                              <p>cliente: Gerardo Torres</p>
+                              <button type="submit" class="btn-borde">Abrir</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="container">
+                              <h4><b>Pedido 2</b></h4> 
+                              <p>ID: 0001239</p>
+                              <p>Fecha: 10/02/2022</p> 
+                              <p>Hora:  10:44 am</p>
+                              <p>cliente: Gerardo Torres</p>
+                              <button type="submit" class="btn-borde">Abrir</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="container">
+                              <h4><b>Pedido 3</b></h4> 
+                              <p>ID: 0001239</p>
+                              <p>Fecha: 10/02/2022</p> 
+                              <p>Hora:  10:44 am</p>
+                              <p>cliente: Gerardo Torres</p> 
+                              <button type="submit" class="btn-borde">Abrir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+
+    <!--
+        Footer, Contact information
+    -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-colum">
+                <p>Dirección: Av. 7 #122 Colonia centro, Orizaba, Veracruz.</p>
+                <p>Teléfono: 2721231230</p>
+                <p>Horario: L-S 10:00am - 9:00pm Domingo 10:00am - 4:00pm</p>
+            </div>
+            <div class="footer-colum socials">
+                <i class="fab fa-facebook fa-3x"></i>
+                <i class="fab fa-instagram fa-3x"></i>
+                <i class="fab fa-twitter fa-3x"></i>
+            </div>
+            <div class="footer-colum">
+                <p>Copyright© 2022 Dulce Pastelería.</p>
+                <p>Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Dulce Pastelería</title>
+</head>
+
+<body>
+
+    <!-- Nav -->
+    <header class="main-header">
+        <nav class="navbar">
+            <!-- LOGO -->
+            <div class="logo">DP</div>
+            <!-- NAVIGATION MENU -->
+            <ul class="nav-links">
+              <!-- USING CHECKBOX HACK -->
+              <input type="checkbox" id="checkbox_toggle" />
+              <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+              <!-- NAVIGATION MENUS -->
+              <div class="menu">
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/index.html#pasteles">Pasteles</a></li>
+                <li><a href="/index.html#footer">Contacto</a></li>
+              </div>
+            </ul>
+          </nav>
+    </header>
+
+    <div class="content">
+        <!--
+        Principal section
+        -->
+        <section class="main-section-individual">
+            <!--
+        Header, slogan, company logo and a button
+        -->
+            <main class="main-content">
+                <div class="div-content">
+                    <h1>Relizar Pedido</h1>
+                </div>
+            </main>
+        </section>
+
+        <!--
+        Section, Form Order
+        -->
+        <section class="about-section">
+            <form action="">
+                <div class="form-row">
+                    <div class="form-col">
+                        <label for="nombre" class="form-label">Nombre:</label>
+                        <input type="text" class="form-control" placeholder="John Doe" id="nombre">
+                    </div>
+
+                    <div class="form-col">
+                        <label for="correo" class="form-label">Correo:</label>
+                        <input type="email" class="form-control" placeholder="correo@correo.com" id="correo">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-col">
+                        <label for="nombre" class="form-label">Teléfono:</label>
+                        <input type="number" class="form-control" placeholder="2721231233" id="nombre">
+                    </div>
+
+                    <div class="form-col">
+                        <label for="mensaje" class="form-label">Mensaje:</label>
+                        <textarea name="mensaje" id="mensaje" class="form-control"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-col">
+                        <p class="form-label">Sabor (Puedes seleccionar hasta 2 sabores):</p>
+    
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" name="sabor1" id="sabor1">
+                            <label for="sabor1" class="form-check-label">Coco piña</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" name="sabor2" id="sabor2">
+                            <label for="sabor2" class="form-check-label">Choco naranja</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" name="sabor3" id="sabor3">
+                            <label for="sabor3" class="form-check-label">Vainilla chocolate</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" name="sabor4" id="sabor4">
+                            <label for="sabor4" class="form-check-label">Cajeta 3 leches</label>
+                        </div>
+                    </div>
+                    <div class="form-col">
+                        <p class="form-label">Adorno: (Puedes seleccionar hasta 2 adornos)</p>
+    
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" name="adorno1" id="adorno1">
+                            <label for="adorno1" class="form-check-label">Tradicional merengue</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" name="adorno2" id="adorno2">
+                            <label for="adorno2" class="form-check-label">Chantilly</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" name="adorno3" id="adorno3">
+                            <label for="adorno3" class="form-check-label">Fondant</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-row">
+                        <div>
+                            <button type="submit" class="btn-borde">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <!--
+        Footer, Contact information
+    -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-colum">
+                <p>Dirección: Av. 7 #122 Colonia centro, Orizaba, Veracruz.</p>
+                <p>Teléfono: 2721231230</p>
+                <p>Horario: L-S 10:00am - 9:00pm Domingo 10:00am - 4:00pm</p>
+            </div>
+            <div class="footer-colum socials">
+                <i class="fab fa-facebook fa-3x"></i>
+                <i class="fab fa-instagram fa-3x"></i>
+                <i class="fab fa-twitter fa-3x"></i>
+            </div>
+            <div class="footer-colum">
+                <p>Copyright© 2022 Dulce Pastelería.</p>
+                <p>Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
